@@ -6,7 +6,7 @@ let handler = async (m, { participants }) => {
 }
 handler.help = ['بنده']
 handler.tags = ['افتحه']
-handler.command = /^لطمه$/i
+handler.command = /^حظر$/i
 
 handler.owner = true
 
