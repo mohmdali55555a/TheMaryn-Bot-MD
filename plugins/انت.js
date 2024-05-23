@@ -1,4 +1,3 @@
-```python
 # استيراد المكتبات اللازمة
 from random import choice
 
