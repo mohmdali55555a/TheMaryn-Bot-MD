@@ -1,5 +1,5 @@
 let handler  = async (m, { conn }) => {
-conn.reply(m.chat,`*♚  اتفضل النصيحه اعمل بيها ♚*\n          ꔹ━━━━━━━━━━━ꔹ\n*『${pickRandom(global.twidbix)}』*\n*ALMOHREZ BOT*`, m)
+conn.reply(m.chat,`*♚  اتفضل النصيحه اعمل بيها ♚*\n          ꔹ━━━━━━━━━━━ꔹ\n*『${pickRandom(global.twidbix)}』*\n*الرعب الملكي بوت*`, m)
 }
 handler.help = ['mksjsdh']
 handler.tags = ['fun']
