@@ -9,7 +9,7 @@ let handler = async (m, {
     command
 }) => {
   if (!text) return m.reply("هلا كيف يمكنني مساعدتك اليوم؟",)
-  await m.reply("اﻻنتظار من فضلك...⏳")
+  await m.reply("> اﻻنتظار من فضلك......⏳")
 
 try {
 // Example usage
