@@ -7,5 +7,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 };
 handler.help = ['', '2'].map((v) => 'wallpaper' + v + ' <query>');
 handler.tags = ['downloader'];
-handler.command = /^(صوره2)$/i;
+handler.command = /^(صوره)$/i;
 export default handler;
