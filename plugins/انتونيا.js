@@ -21,7 +21,7 @@ await m.reply("error")
 }
 handler.help = ["cleandx"]
 handler.tags = ["internet"]
-handler.command = /^(dx|bot|بوت|vcv)$/i
+handler.command = /^(dx|جود|انتونيا|vcv)$/i
 export default handler
 
 /* New Line */
