@@ -9,7 +9,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let users = global.db.data.users
     users[who].banned = false
     conn.reply(m.chat, `
- 👄تم الغاء البان يا روحي التزم بالشروط❤️!
+ 👄تم الغاء البان يا روحي التزم بالشروط❤️ !
 @${who.split`@`[0]} has been unbanned`, m, { mentions: [who] })
 }
 handler.help = ['unban @user']
