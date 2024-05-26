@@ -8,7 +8,7 @@ let handler = async (m, {
     text,
     command
 }) => {
-  if (!text) return m.reply("مو تشتي يغبي مو وقتك لا تزعج الاعضاء؟",)
+  if (!text) return m.reply("يا لبيه❤️ كيف يمكنني مساعدتك اليوم؟",)
   await m.reply("> اﻻنتظار من فضلك......⏳")
 
 try {
