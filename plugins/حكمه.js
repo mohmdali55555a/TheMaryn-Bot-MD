@@ -4,7 +4,7 @@ const handler = async (m, {conn, text}) => {
   m.reply(`╆❂━━━━━━❨🧸❩━━━━━━❂╆\n*〄⊱حـكـمة⊰☀️⊱الـيـوم⊰〄*\n\n➢ *"${pickRandom(global.hekma)}"*\n╆❂━━━━━━❨🧸❩━━━━━━❂╆`);
 };
 handler.tags = ['frasss'];
-handler.command = ['حكمه','حكمة'];
+handler.command = ['همسة_صمت','حكمة'];
 export default handler;
 
 function pickRandom(list) {
