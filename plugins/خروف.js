@@ -5,7 +5,7 @@ function handler(m, { groupMetadata, command, conn, text, usedPrefix}) {
 let ps = groupMetadata.participants.map(v => v.id)
 let a = ps.getRandom()
 let k = Math.floor(Math.random() * 70);
-let top = `*${user(a)} انــت هــو خـروف هـذه الـمجـموعـه*`.trim()
+let top = `*${user(a)} 💃انــت هــو خـروف هـذه الـمجـموعـه*`.trim()
 conn.sendFile (m.reply (top, null, { mentions: [a]}))}
 handler.help = handler.command = ['خروف']
 handler.tags = ['fun']
