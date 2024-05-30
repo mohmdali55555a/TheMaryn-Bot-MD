@@ -8,7 +8,7 @@ let handler = async (m, {
     text,
     command
 }) => {
-  if (!text) return m.reply("اخ يا زعيم ارحمنييييي😫 ",)
+  if (!text) return m.reply("فحلك😫 ",)
   await m.reply("> اﻻنتظار من فضلك......⏳")
 
 try {
@@ -21,7 +21,7 @@ await m.reply("error")
 }
 handler.help = ["cleandx"]
 handler.tags = ["internet"]
-handler.command = /^(dx|زعيم|الزعيم|)$/i
+handler.command = /^(dx|زعيم|الزعيم)$/i
 export default handler
 
 /* New Line */
