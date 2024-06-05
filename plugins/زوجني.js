@@ -11,7 +11,7 @@ function handler(m, { groupMetadata }) {
 }
 handler.help = ['ship']
 handler.tags = ['fun']
-handler.command = ['زوجني']
+handler.command = ['عرس']
 
 handler.group = true
 
