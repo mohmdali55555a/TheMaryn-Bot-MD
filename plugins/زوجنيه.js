@@ -20,12 +20,12 @@ function handler(m, { groupMetadata, command, conn, text, usedPrefix}) {
       delete couples[m.sender]
       conn.sendFile(m.reply(top, null, { mentions: [ex]}))
     } else {
-      conn.reply(m.chat,  أنت لست متزوجًا حتى تستطيع الطلاق. , m)
+      conn.reply(m.chat,  "أنت لست متزوجًا حتى تستطيع الطلاق. , m)
     }
   }
 }
 
-handler.help = handler.command = [ زوجني ,  طلقني ]
+handler.help = handler.command = [ "زوجني ,  طلقني" ]
 handler.tags = [ المجال ]
 handler.group = true
 handler.limit = 0
