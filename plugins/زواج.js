@@ -11,6 +11,6 @@ mentions: [a, b]
 })}
 handler.help = ['formarpareja']
 handler.tags = ['main', 'fun']
-handler.command = ['formarpareja','زواج']
+handler.command = ['formarpareja','عرس']
 handler.group = true
 export default handler
