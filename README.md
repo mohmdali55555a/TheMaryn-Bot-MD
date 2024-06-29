@@ -2,7 +2,7 @@
 
 # `مرحبا بك في بوت الرعب الملكي اول بوت واتساب عربي` 
 <p align="center">
-<img src="[[]()](https://images.app.goo.gl/rRvFoPZ13BhKcTMF7)" alt="⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩" width="900"/>
+<img src="[[(https://telegra.ph/file/7b135489c179a6aa5380b.jpg))" alt="⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩" width="900"/>
 </p>
 
 ------------------
